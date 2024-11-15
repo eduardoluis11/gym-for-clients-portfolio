@@ -1,0 +1,6 @@
+# Fuentes de Imagenes Libres de Copyright usadas que no venían con el Material UI.
+
+Puedes usar estas imágenes sin tener que pagar regalías ni licencia.
+
+1) Imagen de Raphael Silva de Pixabay:
+https://pixabay.com/vectors/avatar-icon-placeholder-profile-3814049/

@@ -1,0 +1,35 @@
+# Get token from Backend
+# POST http://localhost:8000/auth/jwt/create/
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjc0ODk3ODA1LCJqdGkiOiI0Njc2ZjdjN2VkMTg0NWViYjM0MWM4MDliMzYyZmM5ZCIsInVzZXJfaWQiOjF9.sUl7CCenv0aiTO3ulWcXRu6RPFD8t2xP1BlRCOdc88g
+
+# {
+#     "username": "a@b.com",
+#     "password": "Ciccio123"
+# }
+
+
+# Create New User
+
+# POST http://localhost:8000/auth/users/
+# Content-Type: application/json
+# # Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjc0ODk3ODA1LCJqdGkiOiI0Njc2ZjdjN2VkMTg0NWViYjM0MWM4MDliMzYyZmM5ZCIsInVzZXJfaWQiOjF9.sUl7CCenv0aiTO3ulWcXRu6RPFD8t2xP1BlRCOdc88g
+
+# {
+#     "username": "a@bcd.com",
+#     "password": "Ciccio123",
+#     // "re_password": "Ciccio123",
+#     "email": "a@b.com"
+# }
+
+GET http://localhost:8000/api/teachers/
+Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjc0ODk3ODA1LCJqdGkiOiI0Njc2ZjdjN2VkMTg0NWViYjM0MWM4MDliMzYyZmM5ZCIsInVzZXJfaWQiOjF9.sUl7CCenv0aiTO3ulWcXRu6RPFD8t2xP1BlRCOdc88g
+
+{
+    "username": "a@bcd.com",
+    "password": "Ciccio123",
+    // "re_password": "Ciccio123",
+    "email": "a@b.com"
+}
+
