@@ -13,17 +13,18 @@
 out
 .next
 
-# misc (esto incluye las variables de entorno de los .env)
+# misc (esto incluye las variables de entorno de los .env-windows-DEACTIVATE-LATER)
 .DS_Store
 .eslintcache
-/.env
+/.env-windows-DEACTIVATE-LATER
 /.env.local
 /.env.development.local
 /.env.test.local
 /.env.production.local
 /.env
 
-# Esto mete el .env.exaple en el gitignore
+
+# Esto mete el .env-windows-DEACTIVATE-LATER.exaple en el gitignore
 .env.example
 
 npm-debug.log*

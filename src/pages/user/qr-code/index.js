@@ -245,7 +245,7 @@ const Index = () => {
   // * object that's sent to the API.
   // *
   // * También voy a meter el Email del Gimnasio del modelo de Gimnasio aquí para enviar emails por Mailrelay. El email
-  // * desde el que se va enviar el correo NO se va a tomar del .env, sino que se tomará del email que esté guardado en el
+  // * desde el que se va enviar el correo NO se va a tomar del .env-windows-DEACTIVATE-LATER, sino que se tomará del email que esté guardado en el
   // * gimnasio del modelo de Gimnasio.
   // *
   // * Cogeré también el nombre del Cliente, y lo pondré en el Email enviado por Mailrelay.
